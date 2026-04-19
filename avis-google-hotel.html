@@ -37,262 +37,266 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://achat-avis.ch/"},
-            {"@type": "ListItem", "position": 2, "name": "Avis Google Hôtel", "item": "https://achat-avis.ch/avis-google-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Achat Avis",
-        "url": "https://achat-avis.ch",
-        "logo": "https://achat-avis.ch/avis-market-logo.png",
-        "description": "Service suisse d'achat d'avis Google pour améliorer votre e-réputation et booster votre fiche Google My Business en Suisse romande.",
-        "email": "support@achat-avis.ch",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "support@achat-avis.ch",
-            "contactType": "customer service",
-            "availableLanguage": ["French"],
-            "areaServed": "CH"
-        },
-        "areaServed": {
-            "@type": "Country",
-            "name": "Suisse"
-        },
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Achat Avis Google Hôtel",
-                        "url": "https://achat-avis.ch/avis-google-hotel.html",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "Achat Avis",
-                            "url": "https://achat-avis.ch"
-                        },
-                        "areaServed": {
-                            "@type": "Country",
-                            "name": "Suisse"
-                        },
-                        "availableLanguage": "French",
-                        "serviceType": "Achat avis Google"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://achat-avis.ch/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avis Google Hôtel",
+                        "item": "https://achat-avis.ch/avis-google-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Achat Avis",
-        "url": "https://achat-avis.ch",
-        "inLanguage": "fr-CH",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Achat Avis"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Les avis Google pour hôtel mentionnent-ils les chambres et le service ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, chaque avis est rédigé sur mesure en mentionnant la propreté des chambres, la qualité de l'accueil, le petit-déjeuner, la localisation et le confort général de votre établissement."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Combien d'avis Google un hôtel doit-il avoir pour inspirer confiance ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un hôtel a besoin d'au moins 50 à 100 avis pour paraître crédible. Les voyageurs comparent systématiquement plusieurs établissements et privilégient ceux avec le plus grand nombre d'avis positifs."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis Google sont-ils aussi importants que Booking ou TripAdvisor ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolument. Google est devenu la première plateforme consultée avant une réservation. Beaucoup de voyageurs vérifient la note Google même quand ils réservent via d'autres plateformes."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Peut-on acheter des avis Google pour plusieurs hôtels ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, nous gérons des commandes multi-établissements. Contactez-nous via WhatsApp après votre commande pour indiquer les différentes fiches Google à cibler."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avis Positifs + 5 offerts",
-                    "description": "Pack de 25 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "Organization",
+                "name": "Achat Avis",
+                "url": "https://achat-avis.ch",
+                "logo": "https://achat-avis.ch/avis-market-logo.png",
+                "description": "Service suisse d'achat d'avis Google pour améliorer votre e-réputation et booster votre fiche Google My Business en Suisse romande.",
+                "email": "support@achat-avis.ch",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "email": "support@achat-avis.ch",
+                    "contactType": "customer service",
+                    "availableLanguage": [
+                        "French"
+                    ],
+                    "areaServed": "CH"
+                },
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Suisse"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "achat avis google hôtel",
+                                "url": "https://achat-avis.ch/avis-google-hotel.html",
+                                "provider": {
+                                    "@type": "Organization",
+                                    "name": "Achat Avis",
+                                    "url": "https://achat-avis.ch"
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
+                                "areaServed": {
+                                    "@type": "Country",
+                                    "name": "Suisse"
+                                },
+                                "availableLanguage": "fr-FR",
+                                "serviceType": "Achat avis Google"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "name": "Achat Avis",
+                "url": "https://achat-avis.ch",
+                "inLanguage": "fr-CH",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Achat Avis"
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google pour hôtel mentionnent-ils les chambres et le service ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, chaque avis est rédigé sur mesure en mentionnant la propreté des chambres, la qualité de l'accueil, le petit-déjeuner, la localisation et le confort général de votre établissement."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'avis Google un hôtel doit-il avoir pour inspirer confiance ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un hôtel a besoin d'au moins 50 à 100 avis pour paraître crédible. Les voyageurs comparent systématiquement plusieurs établissements et privilégient ceux avec le plus grand nombre d'avis positifs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google sont-ils aussi importants que Booking ou TripAdvisor ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolument. Google est devenu la première plateforme consultée avant une réservation. Beaucoup de voyageurs vérifient la note Google même quand ils réservent via d'autres plateformes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Peut-on acheter des avis Google pour plusieurs hôtels ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, nous gérons des commandes multi-établissements. Contactez-nous via WhatsApp après votre commande pour indiquer les différentes fiches Google à cibler."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avis Positifs + 10 offerts",
-                    "description": "Pack de 50 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack de 25 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack de 50 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack de 100 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avis Positifs + 20 offerts",
-                    "description": "Pack de 100 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

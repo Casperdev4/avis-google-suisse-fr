@@ -36,262 +36,266 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://achat-avis.ch/"},
-            {"@type": "ListItem", "position": 2, "name": "Avis Google Artisan", "item": "https://achat-avis.ch/avis-google-artisan.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Achat Avis",
-        "url": "https://achat-avis.ch",
-        "logo": "https://achat-avis.ch/avis-market-logo.png",
-        "description": "Service suisse d'achat d'avis Google pour améliorer votre e-réputation et booster votre fiche Google My Business en Suisse romande.",
-        "email": "support@achat-avis.ch",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "support@achat-avis.ch",
-            "contactType": "customer service",
-            "availableLanguage": ["French"],
-            "areaServed": "CH"
-        },
-        "areaServed": {
-            "@type": "Country",
-            "name": "Suisse"
-        },
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Achat Avis Google Artisan",
-                        "url": "https://achat-avis.ch/avis-google-artisan.html",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "Achat Avis",
-                            "url": "https://achat-avis.ch"
-                        },
-                        "areaServed": {
-                            "@type": "Country",
-                            "name": "Suisse"
-                        },
-                        "availableLanguage": "French",
-                        "serviceType": "Achat avis Google"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://achat-avis.ch/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avis Google Artisan",
+                        "item": "https://achat-avis.ch/avis-google-artisan.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Achat Avis",
-        "url": "https://achat-avis.ch",
-        "inLanguage": "fr-CH",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Achat Avis"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Les avis mentionnent-ils des travaux d'artisanat spécifiques ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, nos avis évoquent des interventions réelles d'artisanat : réfection de ouvrage, travaux de finition, réparation soignée, installation sur mesure ou intervention rapide. Chaque avis est adapté aux prestations que vous proposez."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Combien d'avis Google faut-il pour un artisan ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un pack de 25 à 50 avis suffit généralement pour dominer votre secteur. Les entreprises d'artisanat ont souvent très peu d'avis en ligne, ce qui vous permet de prendre l'avantage rapidement avec un investissement modeste."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis peuvent-ils rassurer sur le sérieux de mon entreprise d'artisanat ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolument. Nos avis mettent en avant des éléments de confiance essentiels dans l'artisanat : respect du devis initial, étanchéité parfaite, chantier laissé propre et travaux réalisés dans les délais. Ces témoignages dissipent les craintes des clients face aux arnaques du secteur."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis Google aident-ils un artisan à obtenir plus de chantiers ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, directement. Les propriétaires comparent systématiquement les notes avant de confier leurs travaux de ouvrage. Un artisan avec une note de 4,8 étoiles et des dizaines d'avis détaillés sera contacté en priorité, surtout pour des chantiers importants où la confiance est déterminante."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avis Positifs + 5 offerts",
-                    "description": "Pack de 25 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "Organization",
+                "name": "Achat Avis",
+                "url": "https://achat-avis.ch",
+                "logo": "https://achat-avis.ch/avis-market-logo.png",
+                "description": "Service suisse d'achat d'avis Google pour améliorer votre e-réputation et booster votre fiche Google My Business en Suisse romande.",
+                "email": "support@achat-avis.ch",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "email": "support@achat-avis.ch",
+                    "contactType": "customer service",
+                    "availableLanguage": [
+                        "French"
+                    ],
+                    "areaServed": "CH"
+                },
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Suisse"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "achat avis google artisan",
+                                "url": "https://achat-avis.ch/avis-google-artisan.html",
+                                "provider": {
+                                    "@type": "Organization",
+                                    "name": "Achat Avis",
+                                    "url": "https://achat-avis.ch"
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
+                                "areaServed": {
+                                    "@type": "Country",
+                                    "name": "Suisse"
+                                },
+                                "availableLanguage": "fr-FR",
+                                "serviceType": "Achat avis Google"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "name": "Achat Avis",
+                "url": "https://achat-avis.ch",
+                "inLanguage": "fr-CH",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Achat Avis"
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les avis mentionnent-ils des travaux d'artisanat spécifiques ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, nos avis évoquent des interventions réelles d'artisanat : réfection de ouvrage, travaux de finition, réparation soignée, installation sur mesure ou intervention rapide. Chaque avis est adapté aux prestations que vous proposez."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'avis Google faut-il pour un artisan ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un pack de 25 à 50 avis suffit généralement pour dominer votre secteur. Les entreprises d'artisanat ont souvent très peu d'avis en ligne, ce qui vous permet de prendre l'avantage rapidement avec un investissement modeste."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis peuvent-ils rassurer sur le sérieux de mon entreprise d'artisanat ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolument. Nos avis mettent en avant des éléments de confiance essentiels dans l'artisanat : respect du devis initial, étanchéité parfaite, chantier laissé propre et travaux réalisés dans les délais. Ces témoignages dissipent les craintes des clients face aux arnaques du secteur."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google aident-ils un artisan à obtenir plus de chantiers ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, directement. Les propriétaires comparent systématiquement les notes avant de confier leurs travaux de ouvrage. Un artisan avec une note de 4,8 étoiles et des dizaines d'avis détaillés sera contacté en priorité, surtout pour des chantiers importants où la confiance est déterminante."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avis Positifs + 10 offerts",
-                    "description": "Pack de 50 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Pack de 25 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Pack de 50 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Pack de 100 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
+                            "image": "https://achat-avis.ch/avis-market-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CHF",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CHF"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CH"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CH",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avis Positifs + 20 offerts",
-                    "description": "Pack de 100 avis Google positifs avec comptes suisses, textes personnalisés, garantie à vie et service client 24/7.",
-                    "image": "https://achat-avis.ch/avis-market-logo.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "CHF",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CHF"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CH"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CH",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
