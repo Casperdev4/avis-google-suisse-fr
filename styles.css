@@ -1,14 +1,14 @@
 :root {
-    --primary: #5f39ff;
-    --primary-dark: #4a2bd9;
-    --secondary: #20d9a1;
+    --primary: #DA291C;
+    --primary-dark: #A61F14;
+    --secondary: #FF3B30;
     --dark: #3a3a3a;
     --light: #f8f9fa;
     --white: #ffffff;
     --gray: #4a4a4a;
     --gray-light: #e9ecef;
-    --gradient: linear-gradient(135deg, #5f39ff 0%, #20d9a1 100%);
-    --shadow: 0 10px 40px rgba(95, 57, 255, 0.15);
+    --gradient: linear-gradient(135deg, #DA291C 0%, #FF3B30 100%);
+    --shadow: 0 10px 40px rgba(218, 41, 28, 0.15);
     --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.08);
     --radius: 12px;
     --radius-lg: 20px;
@@ -72,12 +72,12 @@ img {
 .btn-primary {
     background: var(--gradient);
     color: var(--white);
-    box-shadow: 0 4px 20px rgba(95, 57, 255, 0.35);
+    box-shadow: 0 4px 20px rgba(218, 41, 28, 0.35);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(95, 57, 255, 0.45);
+    box-shadow: 0 8px 30px rgba(218, 41, 28, 0.45);
 }
 
 .btn-outline {
